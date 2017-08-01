@@ -1,3 +1,8 @@
-hog source code : https://github.com/scikit-image/scikit-image/blob/master/skimage/feature/_hog.py
+hog source code : 
+https://github.com/scikit-image/scikit-image/blob/master/skimage/feature/_hog.py
 
-explain about HOV:https://gurus.pyimagesearch.com/lesson-sample-histogram-of-oriented-gradients-and-car-logo-recognition/
+explain about HOV:
+https://gurus.pyimagesearch.com/lesson-sample-histogram-of-oriented-gradients-and-car-logo-recognition/
+
+uniform_filter examples:
+https://stackoverflow.com/questions/22669252/how-exactly-does-the-reflect-mode-for-scipys-ndimage-filters-work
