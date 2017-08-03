@@ -29,4 +29,6 @@ it seems that all packages are installed.
 Q2:
  /home/yoyo/cs231/cs231_environments/assignment2/.env/bin/python: No module named ipykernel_launcher
  
- change kernel
+ jupyter notebook -> change kernel 
+ 
+ solved
