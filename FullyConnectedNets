@@ -32,3 +32,7 @@ in order to calculate the same answer, the relu_backward is written by :
 thus, in the step, i seem to calculate the right answer, but the probles occurs in "Sandwich" layers
 
 
+usefull introduction about index:
+https://docs.scipy.org/doc/numpy/reference/arrays.indexing.html
+
+
