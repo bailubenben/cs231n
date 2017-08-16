@@ -7,3 +7,4 @@ To understand them, i have found some useful materials
 3.http://www.simon-hohberg.de/2014/10/10/conv-net.html
 4.http://www.deeplearningbook.org/contents/convnets.html
   describe what convolution is , including ﬂipped the kernel, cross-correlation
+  cross-correlation, which is the same as convolutionbut without ﬂipping the kernel
