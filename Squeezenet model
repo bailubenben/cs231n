@@ -31,3 +31,6 @@ During handling of the above exception, another exception occurred:
 ......
 
 """
+REASON:
+	the path is wrong. in assignment3, i have reused the virtulenv in assignment2, so the current root is in assignment2. 
+	if changed to absolute path, everything comes normal.
