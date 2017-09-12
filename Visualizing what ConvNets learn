@@ -5,4 +5,8 @@ the core concept is R-CNN: Regions with CNN features. they solve the CNN localiz
 “recognition using regions” paradigm 
 
   "Recognition using Regions".  use region tree
-  "From Contours to Regions: An Empirical Evaluation"  develop region tree
+  
+  "From Contours to Regions: An Empirical Evaluation"  Oriented Watershed Transform(OWT)-Ultrametric ContourMap(UCM)
+OWT produces a set of initial regions from contour detector output, in other words, Using the gPb contour detector as input 
+
+  "Using contours to detect and localize junctions in natural images" 
