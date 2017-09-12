@@ -1,12 +1,12 @@
 one visualization technique: Retrieving images that maximally activate a neuron
 
-  one paper develops such method: "Rich feature hierarchies for accurate object detection and semantic segmentation".
-the core concept is R-CNN: Regions with CNN features. they solve the CNN localization problem by operating within the 
-“recognition using regions” paradigm 
+  "Rich feature hierarchies for accurate object detection and semantic segmentation".
+output: R-CNN: Regions with CNN features.   input :“recognition using regions” paradigm 
 
-  "Recognition using Regions".  use region tree
+  "Recognition using Regions".  input:region tree
   
-  "From Contours to Regions: An Empirical Evaluation"  Oriented Watershed Transform(OWT)-Ultrametric ContourMap(UCM)
-OWT produces a set of initial regions from contour detector output, in other words, Using the gPb contour detector as input 
+  "From Contours to Regions: An Empirical Evaluation"  
+  output: Oriented Watershed Transform(OWT)-Ultrametric ContourMap(UCM)
+  OWT produces a set of initial regions from contour detector output, in other words, input : gPb contour detector
 
-  "Using contours to detect and localize junctions in natural images" 
+  "Using contours to detect and localize junctions in natural images"    output: gPb
