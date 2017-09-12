@@ -1,0 +1,6 @@
+one visualization technique: Retrieving images that maximally activate a neuron
+
+  one paper develops such method: "Rich feature hierarchies for accurate object detection and semantic segmentation".
+the core concept is R-CNN: Regions with CNN features. they solve the CNN localization problem by operating within the 
+“recognition using regions” paradigm described by the paper "Recognition using Regions". In the paper "Recognition using Regions",
+it use the "region tree" which is depicted by the paper "From Contours to Regions: An Empirical Evaluation"
