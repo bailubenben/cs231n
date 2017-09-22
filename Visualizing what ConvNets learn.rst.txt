@@ -16,4 +16,4 @@ From Contours to Regions: An Empirical Evaluation
 
 Using contours to detect and localize junctions in natural images
 (http://ttic.uchicago.edu/~mmaire/papers/pdf/mafm_cvpr2008.pdf)
-output: gPb
+    output: gPb
