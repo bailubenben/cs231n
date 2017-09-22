@@ -4,8 +4,8 @@ explanationsand source codes.
 
 First, i felt lost about the loss described in such ways：
 
-> You should use the correct_scores to compute the loss, and tf.gradients to compute the gradient of the loss 
-> with respect to the input image stored in model.image. 
+    *"You should use the correct_scores to compute the loss, and tf.gradients to compute the gradient of the loss*
+*with respect to the input image stored in model.image."*
 
 But What is the loss? how to define the loss? does the so-called predict_scores exist? there is some difference 
 about saliency maps between the paper and the hint.In the paper, it computes the the **derivative of the scores** 
