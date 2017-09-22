@@ -1,7 +1,9 @@
-one visualization technique: Retrieving images that maximally activate a neuron
+one visualization technique: **Retrieving images that maximally activate a neuron**
 
-  "Rich feature hierarchies for accurate object detection and semantic segmentation".
-output: R-CNN: Regions with CNN features.   input :“recognition using regions” paradigm 
+  [Rich feature hierarchies for accurate object detection and semantic segmentation].see
+  (https://arxiv.org/abs/1311.2524)
+      output: R-CNN: Regions with CNN features.
+      input :“recognition using regions” paradigm 
 
   "Recognition using Regions".  input:region tree
   
