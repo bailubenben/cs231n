@@ -1,8 +1,8 @@
-# Quesion1:
+# Quesion1
 
-## 1) operation:
+## 1) operation
     run pip3 install -r requirements.txt
-## 2) output:
+## 2) output
   
   Building wheels for collected packages: nltk
     Running setup.py bdist_wheel for nltk ... error
@@ -27,7 +27,7 @@ not know
 rerun pip3
 it seems that all packages are installed.
 
-# Q2:
+# Q2
  /home/yoyo/cs231/cs231_environments/assignment2/.env/bin/python: No module named ipykernel_launcher
  
  jupyter notebook -> change kernel 
