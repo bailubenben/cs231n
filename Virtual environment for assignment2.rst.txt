@@ -1,9 +1,7 @@
 # Quesion1
-
 ## 1) operation
     run pip3 install -r requirements.txt
 ## 2) output
-  
   Building wheels for collected packages: nltk
     Running setup.py bdist_wheel for nltk ... error
     Complete output from command /home/yoyo/cs231/cs231_environments/assignment2/.env/bin/python3 -u -c "import setuptools, tokenize;__file__='/tmp/pip-build-5w26dsib/nltk/setup.py';exec(compile(getattr(tokenize, 'open', open)(__file__).read().replace('\r\n', '\n'), __file__, 'exec'))" bdist_wheel -d /tmp/tmpzltncs5ypip-wheel- --python-tag cp35:
