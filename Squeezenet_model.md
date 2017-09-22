@@ -14,10 +14,8 @@ Since it is written by tensorflow, there are some introductions in
 http://cv-tricks.com/tensorflow-tutorial/save-restore-tensorflow-models-quick-complete-tutorial/
 
   according to the tutorial, meta graph is a protocol buffer which saves the complete Tensorflow graph; i.e. all variables, 
-operations, collections etc. This file has .meta extension. Checkpoint file is a binary file which contains all the values of 
-the weights, biases, gradients and all the other variables saved. This file has an extension .ckpt. 
-However, Tensorflow has changed this from version 0.11. Now, instead of single .ckpt file, we have two files: data file is 
-the file that contains our training variables
+operations, collections etc. This file has **.meta** extension. Checkpoint file is a binary file which contains all the values of the weights, biases, gradients and all the other variables saved. This file has an extension .ckpt. 
+However, Tensorflow has changed this from version 0.11. Now, instead of single **.ckpt** file, we have two files: data file is the file that contains our training variables
 
 when run step "Pretrained Model", the error occurs:
 
