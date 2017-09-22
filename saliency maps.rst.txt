@@ -2,8 +2,8 @@ In the file **NetworkVisualization-TensorFlow**, i was stuck by Saliency Maps. O
 [Deep Inside Convolutional Networks: Visualising Image Classification Models and Saliency Maps!](https://arxiv.org/abs/1312.6034) and the hint in the function **compute_saliency_map** and a lot of other 
 explanationsand source codes. 
 
-First, i felt lost about the loss described in such ways >*"You should use the correct_scores to compute the 
->loss, and tf.gradients to compute the gradient of the loss with respect to the input image stored in model.image"*. 
+First, i felt lost about the loss described in such ways >You should use the correct_scores to compute the 
+>loss, and tf.gradients to compute the gradient of the loss with respect to the input image stored in model.image. 
 But What is the loss? how to define the loss? does the so-called predict_scores exist? there is some difference 
 about saliency maps between the paper and the hint.In the paper, it computes the the **derivative of the scores** 
 **with respect to the image**, not the **loss w.r.t the input**. the difference confused me hardly. In the end, 
@@ -30,5 +30,5 @@ here comes the source code::
   
 enjoy the trip, dig dig dig 
 
-can't explain the the axis right now, pity!!!.........
+can't explain the the axis right now, 頑張ってください!!!.........
   
