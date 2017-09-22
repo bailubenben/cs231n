@@ -1,12 +1,15 @@
-in NetworkVisualization-TensorFlow, it introduces **SqueezeNet**. it uses squeezenet1_0 which has some difference from squeezenet1_1
+  in NetworkVisualization-TensorFlow, it introduces **SqueezeNet**. it uses squeezenet1_0 which has some difference from squeezenet1_1
   
-when i have downloaded the weights about the model, there comes three files: squeezenet.ckpt.data-00000-of-00001, 
-squeezenet.ckpt.index, squeezenet.ckpt.meta. 
+  when i have downloaded the weights about the model, there comes three files: 
+  	squeezenet.ckpt.data-00000-of-00001, 
+	squeezenet.ckpt.index, 
+	squeezenet.ckpt.meta. 
 
-i don't know their relationship and not sure which one should be feed to the save_path in the initial step.Since it is written by tensorflow, there are some introductions in  
+  i don't know their relationship and not sure which one should be feed to the save_path in the initial step.
+Since it is written by tensorflow, there are some introductions in  
 (http://cv-tricks.com/tensorflow-tutorial/save-restore-tensorflow-models-quick-complete-tutorial/)
 
-according to the tutorial, meta graph is a protocol buffer which saves the complete Tensorflow graph; i.e. all variables, 
+  according to the tutorial, meta graph is a protocol buffer which saves the complete Tensorflow graph; i.e. all variables, 
 operations, collections etc. This file has .meta extension. Checkpoint file is a binary file which contains all the values of 
 the weights, biases, gradients and all the other variables saved. This file has an extension .ckpt. 
 However, Tensorflow has changed this from version 0.11. Now, instead of single .ckpt file, we have two files: data file is 
