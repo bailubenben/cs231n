@@ -1,4 +1,4 @@
-  In the file NetworkVisualization-TensorFlow, i was stuck by Saliency Maps. Of course, i had read the paper  [Deep Inside 
+  In the file **NetworkVisualization-TensorFlow**, i was stuck by Saliency Maps. Of course, i had read the paper  [Deep Inside 
 Convolutional Networks: Visualising Image Classification Models and Saliency Maps](https://arxiv.org/abs/1312.6034) and the hint in the function 
 "compute_saliency_maps" and a lot of other explanations and source codes. 
   First, i felt lost about the loss described in such ways "You should use the correct_scores to compute the loss, and 
