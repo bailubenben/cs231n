@@ -1,3 +1,3 @@
-1.ConvNetJS 
+1. ConvNetJS 
 ConvNetJS is a Javascript library for training Deep Learning models (Neural Networks) entirely in your browser. 
-see http://cs.stanford.edu/people/karpathy/convnetjs/index.html
+see (http://cs.stanford.edu/people/karpathy/convnetjs/index.html)
