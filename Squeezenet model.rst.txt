@@ -1,4 +1,4 @@
-in NetworkVisualization-TensorFlow, it introduces SqueezeNet. it uses squeezenet1_0,has some difference from squeezenet1_1
+in NetworkVisualization-TensorFlow, it introduces **SqueezeNet**. it uses squeezenet1_0,has some difference from squeezenet1_1
   
 when i have downloaded the weights about the model, there comes three files: squeezenet.ckpt.data-00000-of-00001, 
 squeezenet.ckpt.index, squeezenet.ckpt.meta. 
