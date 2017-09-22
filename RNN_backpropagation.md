@@ -1,9 +1,10 @@
-in the file rnn_layers.py, when implement the function rnn_step_backward, it involves to compute np.tanh's derivative. 
+in the file rnn_layers.py, when implement the function rnn_step_backward, it involves to compute **np.tanh's derivative**. 
 
-originally, i tried to use tan(x)' = 1 / cos(x) ** 2
+originally, i tried to use 
+        tan(x)' = 1 / cos(x) ** 2
 when run Vanilla RNN: step backward, the output was as following:
-  dx error:  4.68073056857e-10
-  dprev_h error:  2.46403461944e-10
+        dx error:  4.68073056857e-10
+        dprev_h error:  2.46403461944e-10
   dWx error:  7.09199180589e-10
   dWh error:  5.03429305235e-10
   db error:  7.30192291439e-11
