@@ -5,11 +5,15 @@ Rich feature hierarchies for accurate object detection and semantic segmentation
     output: R-CNN: Regions with CNN features.
     input :“recognition using regions” paradigm 
 
-[Recognition using Regions] (http://www-bcf.usc.edu/~limjj/paper/glam_cvpr09.pdf) 
-     input:region tree
+Recognition using Regions
+(http://www-bcf.usc.edu/~limjj/paper/glam_cvpr09.pdf) 
+    input:region tree
   
-[From Contours to Regions: An Empirical Evaluation] 
+From Contours to Regions: An Empirical Evaluation 
+(http://ttic.uchicago.edu/~mmaire/papers/pdf/amfm_cvpr2009.pdf)
     output: Oriented Watershed Transform(OWT)-Ultrametric ContourMap(UCM)
     OWT produces a set of initial regions from contour detector output, in other words, input : gPb contour detector
 
-[Using contours to detect and localize junctions in natural images]    output: gPb
+Using contours to detect and localize junctions in natural images
+(http://ttic.uchicago.edu/~mmaire/papers/pdf/mafm_cvpr2008.pdf)
+output: gPb
