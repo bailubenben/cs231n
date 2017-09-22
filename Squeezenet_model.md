@@ -1,9 +1,13 @@
   in NetworkVisualization-TensorFlow, it introduces **SqueezeNet**. it uses squeezenet1_0 which has some difference from squeezenet1_1
   
   when i have downloaded the weights about the model, there comes three files: 
+  
   	*squeezenet.ckpt.data-00000-of-00001, 
+	
 	*squeezenet.ckpt.index, 
+	
 	*squeezenet.ckpt.meta. 
+
 
   i don't know their relationship and not sure which one should be feed to the save_path in the initial step.
 Since it is written by tensorflow, there are some introductions in  
