@@ -2,11 +2,11 @@
   
   when i have downloaded the weights about the model, there comes three files: 
   
-  	*squeezenet.ckpt.data-00000-of-00001, 
+  squeezenet.ckpt.data-00000-of-00001, 
 	
-	*squeezenet.ckpt.index, 
+  squeezenet.ckpt.index, 
 	
-	*squeezenet.ckpt.meta. 
+	squeezenet.ckpt.meta. 
 
 
   i don't know their relationship and not sure which one should be feed to the save_path in the initial step.
@@ -36,7 +36,6 @@ when run step "Pretrained Model", the error occurs:
 	During handling of the above exception, another exception occurred:
 
 	......
-
 
 **REASON:**
 	the path is wrong. in assignment3, i have reused the virtulenv in assignment2, so the current root is in assignment2. 
