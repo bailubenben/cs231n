@@ -1,27 +1,30 @@
   In the file **NetworkVisualization-TensorFlow**, i was stuck by Saliency Maps. Of course, i had read the paper  
-[Deep Inside Convolutional Networks: Visualising Image Classification Models and Saliency Maps!](https://arxiv.org/abs/1312.6034) and the hint in the function **compute_saliency_map** and a lot of other explanations
-and source codes. 
-  First, i felt lost about the loss described in such ways "You should use the correct_scores to compute the loss, and 
-tf.gradients to compute the gradient of the loss with respect to the input image stored in model.image". But What is the loss?
-How to define the loss? does the so-called predict_scores exist? there is some difference about saliency maps between the paper
-and the hint.In the paper, it computes the the derivative of the scores with respect to the image I, not the loss w.r.t the input
-the difference confused me hardly. In the end, i choose to follow the defination in the paper.
-  Then, it comes the implement. first, got the gradient, scores w.r.t input image, then, for RGB, took the absolute value of 
-this gradient, then took the maximum value over the 3 input channels. 
+[Deep Inside Convolutional Networks: Visualising Image Classification Models and Saliency Maps!](https://arxiv.org/abs/1312.6034) and the hint in the function **compute_saliency_map** and a lot of other 
+explanationsand source codes. 
+  First, i felt lost about the loss described in such ways *"You should use the correct_scores to compute the 
+loss, and tf.gradients to compute the gradient of the loss with respect to the input image stored in model.image"*. 
+But What is the loss? how to define the loss? does the so-called predict_scores exist? there is some difference 
+about saliency maps between the paper and the hint.In the paper, it computes the the derivative of the scores 
+with respect to the image I, not the loss w.r.t the input. the difference confused me hardly. In the end, 
+i choose to follow the defination in the paper.
+  Then, it comes the implement. 
+  1. got the gradient, scores w.r.t input image
+  2. for RGB, took the absolute value of this gradient
+  3. then took the maximum value over the 3 input channels. 
   Logically, it seemed simple in the following. However, the problems sprung up. it was about tensorflow. yes, tf.abs was easy.
 but with tf.reduce_max, how to assign axis? the document was not clear to me. i had to locate the source code about reduce_max.
   find this link:
-  https://stackoverflow.com/questions/36783977/where-is-gen-math-ops-script-in-tensorflow
+  (https://stackoverflow.com/questions/36783977/where-is-gen-math-ops-script-in-tensorflow)
   use jupyter notebook
-  
+  '''
   from tensorflow.python.ops import gen_math_ops
   gen_math_ops??
-  
+  '''
   here comes the source code:-
-  
+  '''
   from tensorflow.python.framework import op_def_library as _op_def_library
   _op_def_library??
-  
+  '''
   enjoy the trip, dig dig dig 
 
   can't explain the the axis .........
