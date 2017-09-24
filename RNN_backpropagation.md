@@ -53,9 +53,10 @@ when run Overfit small data, the output was:
     (Iteration 81 / 100) loss: 0.099114
     (Iteration 91 / 100) loss: 0.073982
   
-from the derivative of sine  
+from the derivative of sine：
   （http://math2.org/math/derivatives/more/trig.htm#cos）
+  
 From the derivative of ex：
   （http://math2.org/math/derivatives/more/hyperbolics.htm）
-  
+
 in machine learning, tan's derivative uses the latter
