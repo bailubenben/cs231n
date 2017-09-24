@@ -2,7 +2,7 @@ in the file rnn_layers.py, when implement the function rnn_step_backward, it inv
 compute **np.tanh's derivative**. 
 
 originally, i tried to use
-        tan(x)' = 1 / cos(x) ** 2
+                tan(x)' = 1 / cos(x) ** 2
 when run Vanilla RNN: step backward, the output was as following:
         dx error:  4.68073056857e-10
         dprev_h error:  2.46403461944e-10
